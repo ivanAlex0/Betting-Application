@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="871.0" prefWidth="1550.0" style="-fx-background-color: #0e7863;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DepositController">
+   <children>
+      <Label layoutX="556.0" layoutY="5.0" prefHeight="91.0" prefWidth="341.0" text="Deposit">
+         <font>
+            <Font name="Bodoni MT" size="56.0" />
+         </font></Label>
+      <Button layoutX="-1.0" layoutY="-1.0" mnemonicParsing="false" onAction="#goBack" prefHeight="70.0" prefWidth="203.0" style="-fx-background-radius: 0;" text="Back" />
+      <TextField fx:id="_cardNumber" layoutX="440.0" layoutY="219.0" prefHeight="58.0" prefWidth="354.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="60.0" layoutY="208.0" prefHeight="70.0" prefWidth="352.0" text="Card number:">
+         <font>
+            <Font name="Bodoni MT" size="56.0" />
+         </font>
+      </Label>
+      <Label fx:id="_cardNumberError" layoutX="824.0" layoutY="235.0" prefHeight="35.0" prefWidth="509.0">
+         <font>
+            <Font name="Bodoni MT" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="_expireDate1" layoutX="440.0" layoutY="360.0" prefHeight="58.0" prefWidth="354.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="65.0" layoutY="349.0" prefHeight="70.0" prefWidth="352.0" text="Expire date:">
+         <font>
+            <Font name="Bodoni MT" size="56.0" />
+         </font>
+      </Label>
+      <Label fx:id="_expireDateError" layoutX="630.0" layoutY="432.0" prefHeight="35.0" prefWidth="509.0">
+         <font>
+            <Font name="Bodoni MT" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="_cardOwner" layoutX="440.0" layoutY="478.0" prefHeight="58.0" prefWidth="354.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="65.0" layoutY="467.0" prefHeight="70.0" prefWidth="352.0" text="Card owner:">
+         <font>
+            <Font name="Bodoni MT" size="56.0" />
+         </font>
+      </Label>
+      <TextField fx:id="_expireDate2" layoutX="828.0" layoutY="357.0" prefHeight="58.0" prefWidth="354.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="_CCV" layoutX="613.0" layoutY="589.0" prefHeight="58.0" prefWidth="159.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="446.0" layoutY="582.0" prefHeight="70.0" prefWidth="134.0" text="CCV:">
+         <font>
+            <Font name="Bodoni MT" size="56.0" />
+         </font>
+      </Label>
+      <Label fx:id="_CCVError" layoutX="828.0" layoutY="604.0" prefHeight="35.0" prefWidth="509.0">
+         <font>
+            <Font name="Bodoni MT" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="1015.0" layoutY="663.0" mnemonicParsing="false" onAction="#deposit" prefHeight="136.0" prefWidth="429.0" style="-fx-background-color: #13599c; -fx-background-radius: 20;" text="Deposit">
+         <font>
+            <Font name="Bodoni MT Bold" size="75.0" />
+         </font>
+      </Button>
+      <TextField fx:id="_ammount" layoutX="356.0" layoutY="704.0" prefHeight="63.0" prefWidth="255.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="65.0" layoutY="692.0" prefHeight="70.0" prefWidth="283.0" text="Ammount:">
+         <font>
+            <Font name="Bodoni MT" size="56.0" />
+         </font>
+      </Label>
+      <Label fx:id="_ammountError" layoutX="638.0" layoutY="721.0" prefHeight="35.0" prefWidth="340.0">
+         <font>
+            <Font name="Bodoni MT" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="871.0" prefWidth="1550.0" style="-fx-background-color: #24c9be;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignInController">
+   <children>
+      <TextField fx:id="_username" layoutX="306.0" layoutY="445.0" prefHeight="69.0" prefWidth="359.0" style="-fx-background-radius: 0;" />
+      <Button layoutX="574.0" layoutY="649.0" mnemonicParsing="false" onAction="#SignIn" prefHeight="89.0" prefWidth="402.0" style="-fx-background-radius: 0; -fx-background-color: #e6ac55;" text="Sign In">
+         <font>
+            <Font name="Bodoni MT" size="48.0" />
+         </font></Button>
+      <Button layoutX="1239.0" layoutY="731.0" mnemonicParsing="false" onAction="#goToSignIn" prefHeight="78.0" prefWidth="244.0" style="-fx-background-color: #34c9eb; -fx-background-radius: 0;" text="Sign Up">
+         <font>
+            <Font name="Bodoni MT" size="40.0" />
+         </font></Button>
+      <TextField fx:id="_password" layoutX="880.0" layoutY="445.0" prefHeight="69.0" prefWidth="359.0" style="-fx-background-radius: 0;" />
+      <Label layoutX="621.0" layoutY="175.0" prefHeight="67.0" prefWidth="298.0" text="Sign In">
+         <font>
+            <Font name="Bodoni MT" size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="377.0" layoutY="370.0" prefHeight="86.0" prefWidth="263.0" text="Username">
+         <font>
+            <Font name="Bodoni MT Italic" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="962.0" layoutY="375.0" prefHeight="86.0" prefWidth="222.0" text="Password">
+         <font>
+            <Font name="Bodoni MT Italic" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="1223.0" layoutY="677.0" prefHeight="60.0" prefWidth="277.0" text="New around here?">
+         <font>
+            <Font name="Bodoni MT Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="_usernameError" layoutX="307.0" layoutY="521.0" prefHeight="59.0" prefWidth="370.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="_passwordError" layoutX="880.0" layoutY="525.0" prefHeight="59.0" prefWidth="535.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="1274.0" layoutY="20.0" mnemonicParsing="false" onAction="#exitApp" prefHeight="78.0" prefWidth="244.0" style="-fx-background-color: #c94224; -fx-background-radius: 0;" text="Exit">
+         <font>
+            <Font name="Bodoni MT" size="40.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
